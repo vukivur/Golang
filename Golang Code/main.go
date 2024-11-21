@@ -37,4 +37,33 @@ func main() {
 	fmt.Println("Введите возраст:")
 	//fmt.Scan(&age)
 	fmt.Println("Имя:", name, "Возраст:", age)
+
+	a := 5
+	b := 1
+
+	if a < b {
+		fmt.Println("a меньше b")
+	} else if a == b {
+		fmt.Println("a равно b")
+	} else {
+		fmt.Println("a больше b")
+	}
+
+	switch a {
+	case 0:
+		fmt.Println("Zero")
+	case 1:
+		fmt.Println("One")
+	case 2:
+		fmt.Println("Two")
+	case 3:
+		fmt.Println("Three")
+	case 4:
+		fmt.Println("Four")
+	case 5:
+		fmt.Println("Five")
+	default:
+		fmt.Println("Unknown number")
+	}
+
 }
